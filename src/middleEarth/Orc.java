@@ -1,8 +1,7 @@
 package middleEarth;
 
-public class Elf extends MiddleEarthCharacter {
-
-	public Elf(String name, double health, double power) {
+public class Orc extends MiddleEarthCharacter {
+	public Orc(String name, double health, double power) {
 		super(name, health, power);
 	}
 	
@@ -19,15 +18,15 @@ public class Elf extends MiddleEarthCharacter {
 				break;
 			case "Dwarf":
 				System.out.println("Dwarf");
-				damageMultiplier = 0;
+				damageMultiplier = 1;
 				break;
 			case "Human":
 				System.out.println("Human");
-				damageMultiplier = 1;
+				damageMultiplier = 1.5;
 				break;
 			case "Orc":
 				System.out.println("Orc");
-				damageMultiplier = 1.5;
+				damageMultiplier = 0;
 				break;
 			case "Wizard":
 				System.out.println("Wizard");
