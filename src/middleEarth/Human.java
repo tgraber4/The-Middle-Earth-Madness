@@ -1,7 +1,7 @@
 package middleEarth;
 
-public class Dwarf extends MiddleEarthCharacter {
-	public Dwarf(String name, double health, double power) {
+public class Human extends MiddleEarthCharacter {
+	public Human(String name, double health, double power) {
 		super(name, health, power);
 	}
 	
@@ -14,23 +14,23 @@ public class Dwarf extends MiddleEarthCharacter {
 		switch (target.getRace()) {
 			case "Elf":
 				System.out.println("Elf");
-				damageMultiplier = 1.5;
+				damageMultiplier = 1;
 				break;
 			case "Dwarf":
 				System.out.println("Dwarf");
-				damageMultiplier = 0;
+				damageMultiplier = 1;
 				break;
 			case "Human":
 				System.out.println("Human");
-				damageMultiplier = 1;
+				damageMultiplier = 0;
 				break;
 			case "Orc":
 				System.out.println("Orc");
-				damageMultiplier = 1;
+				damageMultiplier = 0;
 				break;
 			case "Wizard":
 				System.out.println("Wizard");
-				damageMultiplier = 0;
+				damageMultiplier = 1.5;
 				break;
 			default:
 				System.out.println("No class given");

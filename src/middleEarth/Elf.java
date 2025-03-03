@@ -8,6 +8,9 @@ public class Elf extends MiddleEarthCharacter {
 	
 	@Override
 	public boolean attack(MiddleEarthCharacter target) {
+		if (target.getHealth() == 0) {
+			return false;
+		}
 		double damageMultiplier = 1;
 		switch (target.getRace()) {
 			case "Elf":
