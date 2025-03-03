@@ -1,6 +1,13 @@
 package middleEarth;
 
 public class Human extends MiddleEarthCharacter {
+	
+	/**
+	 * Initializes a Human by taking in it's name, health and power.
+	 * @param name
+	 * @param health
+	 * @param power
+	 */
 	public Human(String name, double health, double power) {
 		super(name, health, power);
 	}

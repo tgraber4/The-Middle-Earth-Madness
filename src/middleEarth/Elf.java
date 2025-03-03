@@ -1,7 +1,13 @@
 package middleEarth;
 
 public class Elf extends MiddleEarthCharacter {
-
+	
+	/**
+	 * Initializes an Elf by taking in it's name, health and power.
+	 * @param name
+	 * @param health
+	 * @param power
+	 */
 	public Elf(String name, double health, double power) {
 		super(name, health, power);
 	}

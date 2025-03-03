@@ -1,6 +1,13 @@
 package middleEarth;
 
 public class Wizard extends MiddleEarthCharacter {
+	
+	/**
+	 * Initializes a Wizard by taking in it's name, health and power.
+	 * @param name
+	 * @param health
+	 * @param power
+	 */
 	public Wizard(String name, double health, double power) {
 		super(name, health, power);
 	}
