@@ -57,6 +57,7 @@ public class MiddleEarthCharacter {
 	public boolean attack(MiddleEarthCharacter target) {
 		return true;
 	}
+	
 	public void displayInfo () {
 		System.out.println("name: " + this.name);
 		System.out.println("health: " + this.health);
