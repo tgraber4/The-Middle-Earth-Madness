@@ -1,8 +1,7 @@
 package middleEarth;
 
-public class Elf extends MiddleEarthCharacter {
-
-	public Elf(String name, double health, double power) {
+public class Dwarf extends MiddleEarthCharacter {
+	public Dwarf(String name, double health, double power) {
 		super(name, health, power);
 	}
 	
