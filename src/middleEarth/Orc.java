@@ -1,6 +1,13 @@
 package middleEarth;
 
 public class Orc extends MiddleEarthCharacter {
+	
+	/**
+	 * Initializes an Orc by taking in it's name, health and power.
+	 * @param name
+	 * @param health
+	 * @param power
+	 */
 	public Orc(String name, double health, double power) {
 		super(name, health, power);
 	}

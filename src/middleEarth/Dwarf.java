@@ -1,6 +1,12 @@
 package middleEarth;
 
 public class Dwarf extends MiddleEarthCharacter {
+	/** 
+	 * Initializes a Dwarf by taking in it's name, health and power.
+	 * @param name
+	 * @param health
+	 * @param power
+	 */
 	public Dwarf(String name, double health, double power) {
 		super(name, health, power);
 	}
