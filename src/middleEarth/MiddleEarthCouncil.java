@@ -1,7 +1,7 @@
 package middleEarth;
 
 /**
- * Singleton class for managing Middle-earth characters.
+ * class for managing Middle-earth characters.
  */
 public class MiddleEarthCouncil {
     private static MiddleEarthCouncil instance;
